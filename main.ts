@@ -7,7 +7,9 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // Why this line: a whole arc in six words — homecoming, then the turn:
 // the locks are changed, so home is no longer his. It reads cleanly
 // aloud, every word earns its place, and it leaves the why unsaid:
-// betrayal, a new life, a warning — the reader fills it in.
+// betrayal, a new life, a warning — the reader fills it in. The
+// contraction "She'd" does double duty: it keeps the count at six words
+// while implying her decision was made before he arrived.
 const LINE = "He came home. She'd changed locks.";
 
 mkdirSync("/output", { recursive: true });
